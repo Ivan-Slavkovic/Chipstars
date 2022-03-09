@@ -1,0 +1,95 @@
+.pop_games_container {
+  height: 800px;
+  background: black;
+}
+
+.pop_games_container .pop_games_container-text > p {
+  color: white;
+  font-weight: bolder;
+  font-size: 35px;
+  margin: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  text-align: left;
+  padding: 30px 90px;
+}
+
+.pop_games_container .pop_games_container-list {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 0.5rem;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
+.pop_games_container .pop_games_container-list-games {
+  position: relative;
+  border-radius: 1rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.pop_games_container .pop_games_container-list-games-image {
+  width: 100%;
+  height: 245px;
+}
+
+.pop_games_container .pop_games_container-list-games:first-child {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+.pop_games_container .pop_games_container-list-games:nth-child(2) {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 5;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+.pop_games_container .pop_games_container-list-games:nth-child(3) {
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 6;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+.pop_games_container .pop_games_container-list-games:nth-child(4) {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+.pop_games_container .pop_games_container-list-games:nth-child(5) {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+.pop_games_container .pop_games_container-list-games:nth-child(6) {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 4;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+.pop_games_container .pop_games_container-list-games:nth-child(7) {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 6;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+/*# sourceMappingURL=PopularGames.css.map */

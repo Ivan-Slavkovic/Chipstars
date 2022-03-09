@@ -1,0 +1,70 @@
+.pop_games_container {
+  height: 800px;
+  background: black;
+
+  .pop_games_container-text > p {
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: left;
+    padding: 30px 90px;
+  }
+
+  .pop_games_container-list {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: auto;
+  }
+
+  .pop_games_container-list-games {
+    position: relative;
+    border-radius: 1rem;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .pop_games_container-list-games-image {
+    width: 100%;
+    height: 245px;
+  }
+
+  .pop_games_container-list-games:first-child {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 1;
+  }
+  .pop_games_container-list-games:nth-child(2) {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row: 1;
+  }
+  .pop_games_container-list-games:nth-child(3) {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row: 1;
+  }
+  .pop_games_container-list-games:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row: 2;
+  }
+  .pop_games_container-list-games:nth-child(5) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 2;
+  }
+  .pop_games_container-list-games:nth-child(6) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 2;
+  }
+  .pop_games_container-list-games:nth-child(7) {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row: 2;
+  }
+}
